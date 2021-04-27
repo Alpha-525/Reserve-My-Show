@@ -1,0 +1,14 @@
+body, html {
+    height: 100%;
+    margin : 0;
+  }
+  
+  div {
+    /* Full height */
+    height: 50%;
+    background-image: url("b2090d1ae0c016943371b6c01dddcf08.jpg");
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:auto;
+  }

@@ -1,0 +1,228 @@
+body{
+      background-color: black;
+      color: white;
+      margin:0;
+      height: 100%;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+.overlay a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 20px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+
+  .navbar {
+    overflow: hidden;
+    text-align: center;
+    position: fixed;
+    height:50px;
+  }
+  
+.img0 {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .img1 {
+    position: relative;
+    top: 130px;
+    left: 300px;
+    z-index: 2;
+    height: 400px;
+    width:650px;
+    border-radius: 5px;
+    border-color: 2px solid black;
+  }
+  .img2 {
+    position: absolute;
+    top: 20px;
+    left: 120px;
+    z-index: 1;
+    width: 1000px;
+    height :400px;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  }
+
+  .butt{
+    font-size: 20px;
+    height:50px;
+    width:200px;
+    background-color: darkred;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding:5px;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-left:350px;
+    position: absolute;
+    top:650px;
+    left:180px;
+  
+  }
+  
+  .butt span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .butt span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .butt:hover span {
+    padding-right: 25px;
+  }
+  
+  .butt:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .info{
+      background-color: rgb(32, 32, 32);
+      margin-left: 110px;
+      margin-right: 130px;
+      text-align: center;
+  
+  }
+
+  h1{
+    margin-top : 205px;
+    padding: 5px;
+  }
+
+  p{
+    padding: 5px;
+  }
+
+  .group{
+    position: relative;
+    margin-left: 10px;
+    margin-right: 0px;
+  }
+
+  h4{
+    text-align: center;
+  }
+
+  .artist{
+    position: absolute;
+    width:226px;
+    height: 150px;
+    background-color: rgb(32, 32, 32);
+    padding-bottom: 15px;
+    padding-left: 25px;
+  }
+  .avatar {
+    top:10px;
+    vertical-align: middle;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+
+  .about{
+    position: absolute;
+    width:700px;
+    height: 165px;
+    background-color: rgb(32, 32, 32);
+    left:260px;
+  }
+
+  .location{
+    position: absolute;
+    width:250px;
+    height: 300px;
+    background-color: rgb(32, 32, 32);
+    right:30px;
+    
+  }
+
+ .social{
+    position: absolute;
+    width:250px;
+    height: 116px;
+    background-color: rgb(32, 32, 32);
+    top:180px;
+ }
+
+ .tnc{
+   background-color: rgb(32, 32, 32);
+   position: absolute;
+   top:180px;
+   left:260px;
+   width:690px;
+   height:300px;
+   text-align: justify;
+   padding: 5px;
+ }
+
+ .footer{
+  background-color:black;
+  color: white;
+  margin-top: 600px;
+}
+
+ .img{
+  width: 20%; 
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+} 
+i{
+ padding: 3px;
+}

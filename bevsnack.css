@@ -1,0 +1,128 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+  .main1{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+  }
+
+  .main2{
+    width:80%;
+    height: 800px;
+    margin:3% auto;
+    background-color: black;
+    padding:5px;
+    display: inline-flexbox;
+  }
+
+  .butt{
+      width:190px;
+      margin-left: 220px;
+      position: relative;
+      box-shadow: 0 0 20px 9px darkred;
+      border-radius: 30px;
+      padding:10px;
+      height:20px;
+      margin-top: 10px;
+  }
+  button{
+    cursor: pointer;
+  }
+  .butt1{
+      padding:10px,30px;
+      cursor: pointer;
+      background: transparent;
+      border: 0;
+      outline: none;
+      position: relative;
+      cursor: pointer;
+  }
+
+  #togg{
+      top:0;
+      left:0; 
+      position: absolute;
+      width:100px;
+      height:100%;
+      background: darkred ; 
+      border-radius: 10px;
+      transition: .5s;
+
+    }
+
+    img{
+        height:75px;
+        width:200px;
+    }
+  
+    .display{
+        height:145px;
+        width:200px;
+        background:rgb(32, 32, 32);
+  
+    }
+
+    button{
+      height:15%;
+      width:25%;
+    }
+
+    .input{
+      top:180px;
+      position: absolute;
+      width:280px;
+      transition: .5s;
+      
+      display: inline-flex;
+    }
+
+    .input1{
+      top:400px;
+      position: absolute;
+      width:280px;
+      transition: .5s;
+      
+      display: inline-flex;
+    }
+    .input2{
+      top:610px;
+      position: absolute;
+      width:280px;
+      transition: .5s;
+      
+      display: inline-flex;
+    }
+
+    #pop{
+      left:50px;
+    }
+
+    #bev, #bev1, #bev2{
+      left:1250px;
+    }
+
+   .c1{
+    top:80px; right:90px;
+   }
+  .c2{
+    top:80px; left:385px;
+  }
+  .c3{
+    top:80px; left:595px;
+  }
+
+  button{
+    background-color: darkred;
+    border:none;
+    border-radius: 5px;
+    color: white;
+  }
+  

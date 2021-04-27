@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title>Reserve My Show (Book tickets online)</title>
+  <head> 
+    <link rel="stylesheet" href="seats.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/ec8d4bdaaf.js" crossorigin="anonymous"></script>
+    <script>
+        function book(number){
+            var x = document.getElementsByClassName("seat")[number].id;
+            if(document.getElementById(x).style.backgroundColor == "black"){
+                document.getElementById(x).style.backgroundColor = "limegreen";
+            }
+            else if(document.getElementById(x).style.backgroundColor == "limegreen"){
+                document.getElementById(x).style.backgroundColor = "black";
+            }
+        }
+    </script>
+  </head>
+  <body>
+    
+    <div>
+        <div class="enex">
+            Exit
+        </div>
+        <div class="enex" style="width:800px; margin-left: 50px;">
+            All eyes this way please!
+        </div>
+        <div class="enex" style="float: right;">
+            Exit
+        </div>
+    </div> <br><br> <br><br>
+
+<div class="sides" style="float: left;">
+   <table>
+       <tr>
+           
+           <th>A&nbsp;</th>
+           <th><a id="A1" style="background-color: black;" href="javascript:;" class="seat" onclick="book(0)">1</a>&nbsp;</th>
+           <th><a id="A2" style="background-color: black;" href="javascript:;" class="seat" onclick="book(1)">2</a>&nbsp;</th>
+           <th><a id="A3" style="background-color: black;" href="javascript:;" class="seat" onclick="book(2)">3</a>&nbsp;</th>
+           <th><a id="A4" style="background-color: black;" href="javascript:;" class="seat" onclick="book(3)">4</a>&nbsp;</th>
+    </tr>   
+    <tr>
+       <th>B&nbsp;</th>
+           <th><a id="B1" href="javascript:;" class="seat" style="background-color: black;"onclick="book(4)">1</a>&nbsp;</th>
+           <th><a id="B2" href="javascript:;" class="seat" style="background-color: black;"onclick="book(5)">2</a>&nbsp;</th>
+           <th><a id="B3" href="javascript:;" class="seat" style="background-color: black;"onclick="book(6)">3</a>&nbsp;</th>
+           <th><a id="B4" href="javascript:;" class="seat" style="background-color: black;"onclick="book(7)">4</a>&nbsp;</th>
+       </tr>
+       <tr>
+       <th>C&nbsp;</th>
+           <th><a id="C1" href="javascript:;" class="seat" style="background-color: black;"onclick="book(8)">1</a>&nbsp;</th>
+           <th><a id="C2" href="javascript:;" class="seat" style="background-color: black;"onclick="book(9)">2</a>&nbsp;</th>
+           <th><a id="C3" href="javascript:;" class="seat" style="background-color: black;"onclick="book(10)">3</a>&nbsp;</th>
+           <th><a id="C4" href="javascript:;" class="seat" style="background-color: black;"onclick="book(11)">4</a>&nbsp;</th>
+        </tr>
+        <tr>
+       <th>D&nbsp;</th>
+           <th><a id="D1" href="javascript:;" class="seat" style="background-color: black;"onclick="book(12)">1</a>&nbsp;</th>
+           <th><a id="D2" href="javascript:;" class="seat" style="background-color: black;"onclick="book(13)">2</a>&nbsp;</th>
+           <th><a id="D3" href="javascript:;" class="seat" style="background-color: black;"onclick="book(14)">3</a>&nbsp;</th>
+           <th><a id="D4" href="javascript:;" class="seat" style="background-color: black;"onclick="book(15)">4</a>&nbsp;</th>
+       </tr>
+    </table><br><hr><br>
+    <table>
+       <th>E&nbsp;</th>
+           <th><a id="E1" href="javascript:;" class="seat" style="background-color: black;"onclick="book(16)">1</a>&nbsp;</th>
+           <th><a id="E2" href="javascript:;" class="seat" style="background-color: black;"onclick="book(17)">2</a>&nbsp;</th>
+           <th><a id="E3" href="javascript:;" class="seat" style="background-color: black;"onclick="book(18)">3</a>&nbsp;</th>
+           <th><a id="E4" href="javascript:;" class="seat" style="background-color: black;"onclick="book(19)">4</a>&nbsp;</th>
+       </tr>
+       <th>F&nbsp;</th>
+           <th><a id="F1"  href="javascript:;" class="seat" style="background-color: black;"onclick="book(20)">1</a>&nbsp;</th>
+           <th><a id="F2"  href="javascript:;" class="seat" style="background-color: black;"onclick="book(21)">2</a>&nbsp;</th>
+           <th><a id="F3"  href="javascript:;" class="seat" style="background-color: black;"onclick="book(22)">3</a>&nbsp;</th>
+           <th><a id="F4"  href="javascript:;" class="seat" style="background-color: black;"onclick="book(23)">4</a>&nbsp;</th>
+       </tr>
+    </table><br><hr><br>
+    <table>
+   
+       <th>G&nbsp;</th>
+           <th><a id="G1" href="javascript:;" class="seat" style="background-color: black;"onclick="book(24)">1</a>&nbsp;</th>
+           <th><a id="G2" href="javascript:;" class="seat" style="background-color: black;"onclick="book(25)">2</a>&nbsp;</th>
+           <th><a id="G3" href="javascript:;" class="seat" style="background-color: black;"onclick="book(26)">3</a>&nbsp;</th>
+           <th><a id="G4" href="javascript:;" class="seat" style="background-color: black;"onclick="book(27)">4</a>&nbsp;</th>
+       </tr>
+    </table>
+</div>
+
+<p style="writing-mode: vertical-lr; position: absolute; left:238px; top:300px;display:inline">Walking aisle path</p>
+
+<div class="sides" style="width:650px;margin-left: 60px;">
+   <table>
+    <tr> 
+        <th><a id="A5" href="javascript:;" class="seat" style=" margin-left:15px; margin-bottom: 8px;background-color:black;"onclick="book(28)">5</a>&nbsp;</th>
+        <th><a id="A6"  href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color:black;"  onclick="book(29)">6</a>&nbsp;</th>
+        <th><a id="A7"  href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(30)">7</a>&nbsp;</th>
+        <th><a id="A8"  href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(31)">8</a>&nbsp;</th>
+        <th><a id="A9"  href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(32)">9</a>&nbsp;</th>
+        <th><a id="A10"  href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(33)">10</a>&nbsp;</th>
+        <th><a id="A11"  href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(34)">11</a>&nbsp;</th>
+        <th><a id="A12"  href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(35)">12</a>&nbsp;</th>
+        <th><a id="A13"  href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(36)">13</a>&nbsp;</th>
+        <th><a id="A14"  href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(37)">14</a>&nbsp;</th>
+        <th><a id="A15"  href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(38)">15</a>&nbsp;</th>
+        <th><a id="A16"  href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(39)">16</a>&nbsp;</th> 
+    </tr>
+    <tr> 
+        <th><a id="B5" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(40)">5</a>&nbsp;</th>
+        <th><a id="B6"  href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(41)">6</a>&nbsp;</th>
+        <th><a id="B7"  href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(42)">7</a>&nbsp;</th>
+        <th><a id="B8"  href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(43)">8</a>&nbsp;</th>
+        <th><a id="B9"  href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(44)">9</a>&nbsp;</th>
+        <th><a id="B10"  href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(45)">10</a>&nbsp;</th>
+        <th><a id="B11"  href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(46)">11</a>&nbsp;</th>
+        <th><a id="B12"  href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(47)">12</a>&nbsp;</th>
+        <th><a id="B13"  href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(48)">13</a>&nbsp;</th>
+        <th><a id="B14"  href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(49)">14</a>&nbsp;</th>
+        <th><a id="B15"  href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(50)">15</a>&nbsp;</th>
+        <th><a id="B16"  href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(51)">16</a>&nbsp;</th>
+    
+    </tr>
+    <tr> 
+        <th><a id="C5" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(52)">5</a>&nbsp;</th>
+        <th><a id="C6" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(53)">6</a>&nbsp;</th>
+        <th><a id="C7" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(54)">7</a>&nbsp;</th>
+        <th><a id="C8" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(55)">8</a>&nbsp;</th>
+        <th><a id="C9" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(56)">9</a>&nbsp;</th>
+        <th><a id="C10" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(57)">10</a>&nbsp;</th>
+        <th><a id="C11" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(58)">11</a>&nbsp;</th>
+        <th><a id="C12" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(59)">12</a>&nbsp;</th>
+        <th><a id="C13" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(60)">13</a>&nbsp;</th>
+        <th><a id="C14" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(61)">14</a>&nbsp;</th>
+        <th><a id="C15" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(62)">15</a>&nbsp;</th>
+        <th><a id="C16" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(63)">16</a>&nbsp;</th>
+    
+    </tr>
+    <tr> 
+        <th><a id="D5" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(64)">5</a>&nbsp;</th>
+        <th><a id="D6" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(65)">6</a>&nbsp;</th>
+        <th><a id="D7" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(66)">7</a>&nbsp;</th>
+        <th><a id="D8" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(67)">8</a>&nbsp;</th>
+        <th><a id="D9" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(68)">9</a>&nbsp;</th>
+        <th><a id="D10" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(69)">10</a>&nbsp;</th>
+        <th><a id="D11" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(70)">11</a>&nbsp;</th>
+        <th><a id="D12" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(71)">12</a>&nbsp;</th>
+        <th><a id="D13" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(72)">13</a>&nbsp;</th>
+        <th><a id="D14" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(73)">14</a>&nbsp;</th>
+        <th><a id="D15" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(74)">15</a>&nbsp;</th>
+        <th><a id="D16" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(75)">16</a>&nbsp;</th>
+    
+    </tr>
+    
+</table>
+<p style="display: inline; text-align: center; font-size: 15px; padding-left: 270px;">Executive : <i class="fas fa-rupee-sign"></i> 200</p>
+<br><hr><br>
+<table>
+    <tr> 
+        <th><a id="E5" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(76)">5</a>&nbsp;</th>
+        <th><a id="E6" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(77)">6</a>&nbsp;</th>
+        <th><a id="E7" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(78)">7</a>&nbsp;</th>
+        <th><a id="E8" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(79)">8</a>&nbsp;</th>
+        <th><a id="E9" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(80)">9</a>&nbsp;</th>
+        <th><a id="E10" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(81)">10</a>&nbsp;</th>
+        <th><a id="E11" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(82)">11</a>&nbsp;</th>
+        <th><a id="E12" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(83)">12</a>&nbsp;</th>
+        <th><a id="E13" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(84)">13</a>&nbsp;</th>
+        <th><a id="E14" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(85)">14</a>&nbsp;</th>
+        <th><a id="E15" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(86)">15</a>&nbsp;</th>
+        <th><a id="E16" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(87)">16</a>&nbsp;</th>
+    
+    </tr>
+    <tr> 
+        <th><a id="F5" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(88)">5</a>&nbsp;</th>
+        <th><a id="F6" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(89)">6</a>&nbsp;</th>
+        <th><a id="F7" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(90)">7</a>&nbsp;</th>
+        <th><a id="F8" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(91)">8</a>&nbsp;</th>
+        <th><a id="F9" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(92)">9</a>&nbsp;</th>
+        <th><a id="F10" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(93)">10</a>&nbsp;</th>
+        <th><a id="F11" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(94)">11</a>&nbsp;</th>
+        <th><a id="F12" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(95)">12</a>&nbsp;</th>
+        <th><a id="F13" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(96)">13</a>&nbsp;</th>
+        <th><a id="F14" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(97)">14</a>&nbsp;</th>
+        <th><a id="F15" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(98)">15</a>&nbsp;</th>
+        <th><a id="F16" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(99)">16</a>&nbsp;</th>
+    
+    </tr>
+</table>
+<p style="display: inline; text-align: center; font-size: 15px;padding-left: 270px;">Premium : <i class="fas fa-rupee-sign"></i> 300</p>
+<br><hr><br>
+<table>
+    <tr> 
+        <th><a id="G5" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(100)">5</a>&nbsp;</th>
+        <th><a id="G6" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(101)">6</a>&nbsp;</th>
+        <th><a id="G7" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(102)">7</a>&nbsp;</th>
+        <th><a id="G8" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(103)">8</a>&nbsp;</th>
+        <th><a id="G9" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(104)">9</a>&nbsp;</th>
+        <th><a id="G10" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(105)">10</a>&nbsp;</th>
+        <th><a id="G11" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(106)">11</a>&nbsp;</th>
+        <th><a id="G12" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(107)">12</a>&nbsp;</th>
+        <th><a id="G13" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(108)">13</a>&nbsp;</th>
+        <th><a id="G14" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(109)">14</a>&nbsp;</th>
+        <th><a id="G15" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(110)">15</a>&nbsp;</th>
+        <th><a id="G16" href="javascript:;" class="seat"style=" margin-left:15px; margin-bottom: 8px;background-color: black;" onclick="book(111)">16</a>&nbsp;</th>
+    
+    </tr>
+      
+</table> 
+<p  style="display: inline; text-align: center; font-size: 15px; padding-left: 270px;">Recliner : <i class="fas fa-rupee-sign"></i> 500</p>
+</div>
+<p style="writing-mode: vertical-lr; position: absolute; left:970px;top:300px;display:inline">Walking aisle path</p>
+
+<div class="sides" style="float: right;">
+    <table>
+        <tr>  
+            <th>&nbsp<a id="A17" href="javascript:;" class="seat" style="background-color: black;" onclick="book(112)">17</a>&nbsp;</th>
+            <th>&nbsp<a id="A18" href="javascript:;" class="seat" style="background-color: black;" onclick="book(113)">18</a>&nbsp;</th>
+            <th>&nbsp<a id="A19" href="javascript:;" class="seat" style="background-color: black;" onclick="book(114)">19</a>&nbsp;</th>
+            <th>&nbsp<a id="A20" href="javascript:;" class="seat" style="background-color: black;" onclick="book(115)">20</a>&nbsp;</th>
+        </tr>
+        <tr> 
+            <th>&nbsp<a id="B17" href="javascript:;" class="seat" style="background-color: black;" onclick="book(116)">17</a>&nbsp;</th>
+            <th>&nbsp<a id="B18" href="javascript:;" class="seat" style="background-color: black;" onclick="book(117)">18</a>&nbsp;</th>
+            <th>&nbsp<a id="B19" href="javascript:;" class="seat" style="background-color: black;" onclick="book(118)">19</a>&nbsp;</th>
+            <th>&nbsp<a id="B20" href="javascript:;" class="seat" style="background-color: black;" onclick="book(119)">20</a>&nbsp;</th>
+        </tr>
+        <tr> 
+            <th>&nbsp<a id="C17" href="javascript:;" class="seat" style="background-color: black;" onclick="book(120)">17</a>&nbsp;</th>
+            <th>&nbsp<a id="C18" href="javascript:;" class="seat" style="background-color: black;" onclick="book(121)">18</a>&nbsp;</th>
+            <th>&nbsp<a id="C19" href="javascript:;" class="seat" style="background-color: black;" onclick="book(122)">19</a>&nbsp;</th>
+            <th>&nbsp<a id="C20" href="javascript:;" class="seat" style="background-color: black;" onclick="book(123)">20</a>&nbsp;</th>
+        </tr>
+        <tr> 
+            <th>&nbsp<a id="D17" href="javascript:;" class="seat" style="background-color: black;" onclick="book(124)">17</a>&nbsp;</th>
+            <th>&nbsp<a id="D18" href="javascript:;" class="seat" style="background-color: black;" onclick="book(125)">18</a>&nbsp;</th>
+            <th>&nbsp<a id="D19" href="javascript:;" class="seat" style="background-color: black;" onclick="book(126)">19</a>&nbsp;</th>
+            <th>&nbsp<a id="D20" href="javascript:;" class="seat" style="background-color: black;" onclick="book(127)">20</a>&nbsp;</th>
+        </tr>
+    </table><br><hr><br>
+    <table>
+        <tr> 
+            <th>&nbsp<a id="E17" href="javascript:;" class="seat" style="background-color: black;" onclick="book(128)">17</a>&nbsp;</th>
+            <th>&nbsp<a id="E18" href="javascript:;" class="seat" style="background-color: black;" onclick="book(129)">18</a>&nbsp;</th>
+            <th>&nbsp<a id="E19" href="javascript:;" class="seat" style="background-color: black;" onclick="book(130)">19</a>&nbsp;</th>
+            <th>&nbsp<a id="E20" href="javascript:;" class="seat" style="background-color: black;" onclick="book(131)">20</a>&nbsp;</th>
+        </tr>
+        <tr> 
+            <th>&nbsp<a id="F17" href="javascript:;" class="seat" style="background-color: black;" onclick="book(132)">17</a>&nbsp;</th>
+            <th>&nbsp<a id="F18" href="javascript:;" class="seat" style="background-color: black;" onclick="book(133)">18</a>&nbsp;</th>
+            <th>&nbsp<a id="F19" href="javascript:;" class="seat" style="background-color: black;" onclick="book(134)">19</a>&nbsp;</th>
+            <th>&nbsp<a id="F20" href="javascript:;" class="seat" style="background-color: black;" onclick="book(135)">20</a>&nbsp;</th>
+        </tr>
+    </table><br><hr><br>
+    <table>
+        <tr> 
+            <th>&nbsp<a id="G17" href="javascript:;" class="seat" style="background-color: black;" onclick="book(136)">17</a>&nbsp;</th>
+            <th>&nbsp<a id="G18" href="javascript:;" class="seat" style="background-color: black;" onclick="book(137)">18</a>&nbsp;</th>
+            <th>&nbsp<a id="G19" href="javascript:;" class="seat" style="background-color: black;" onclick="book(138)">19</a>&nbsp;</th>
+            <th>&nbsp<a id="G20" href="javascript:;" class="seat" style="background-color: black;" onclick="book(139)">20</a>&nbsp;</th>
+        </tr>     
+     </table>
+ </div><br><br><br><br>
+ <div>
+    <div class="enex">
+        Entry     
+   </div>
+
+   <button><a href="iframe.html"><button class="butt"><span>Book Tickets</span></button></a>
+       
+   <div class="enex" style="float: right;">
+      Entry
+   </div>
+    </div>
+
+
+</body>
+      </html>   

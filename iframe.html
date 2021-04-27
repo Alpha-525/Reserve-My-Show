@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title>Reserve My Show (Book tickets online)</title>
+  <head>
+    <link rel="stylesheet" href="iframe.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/ec8d4bdaaf.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <div class="navbar">
+        <span style="color:white;font-size:20px;cursor:pointer; padding-left: 10px; padding-top: 7px; float: left;" onclick="openNav()">&#9776;</span>    
+    </div>
+  
+    <img style = "height: 95px; display: block; margin-left: auto; margin-right: auto;" src = "C:\Users\HP\Documents\Project\WhatsApp_Image_2021-03-14_at_7.37.57_PM-removebg-preview.png">
+  
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div style = "color: white;" class="overlay-content">
+          <a href="Home Page.html">HOME</a>
+          <a href="About.html">ABOUT US</a>
+          <a href="t&c.html">TERMS & CONDITIONS</a>
+          <a href="Contact.html">CONTACT US</a>
+        </div>
+      </div> 
+    
+      <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+    <div id="div">
+<div class="main">
+    <img src="http://localhost/Project/Screenshot%20(201).png" style="width:100%;">
+    <h2 style="padding: 10px; text-align: center;">Grab a <span style="color: red;">Bite!</span></h2>
+    <p style="text-align: center;">Prebook Your Meal and Save More!</p>
+    <iframe src="http://localhost/Project/Bev&Snack%20Carrsouel.html" style="height:100%; width: 99%;"></iframe>
+</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<div class="main2">
+<h2>Booking Summary</h2>
+<h4 style=" float:left;">PREMIUM - D6, D8</h4>
+<h4 style="float: right;">Rs.440</h4><br><br>
+<h6 stlye="float:left;">Internet handling fee</h6>
+<h6 style="float: right; position: absolute; top:150px; right:50px">Rs.50</h6>
+<hr>
+<h4 style="float: left;">Sub Total</h4>
+<h4 style="float:right">Rs.490</h4><br><br><br><br>
+<h3 style="color: grey; text-align: center;">Select Ticket Type</h3>
+
+<div class="mticket">
+    <input id="mtick" style="cursor: pointer;" type="radio">&nbsp;&nbsp;&nbsp;
+    <span></span>
+    <label for="mtick"><i style="cursor: pointer;"  class="fas fa-mobile-alt">&nbsp;&nbsp;M-Ticket</i></label>
+
+</div>
+<div class="mticket">
+    <input id="box" style="cursor: pointer;" type="radio">&nbsp;&nbsp;&nbsp;
+    <span></span>
+    <label for="box"><i style="cursor: pointer; text-align: center;" class="fas fa-hotel">&nbsp;&nbsp;Box-Office Pickup</i></label>
+
+</div><br><br><br><br>
+
+<a href="payment.php"><button id="pay">Proceed</button></a>
+</div>
+
+</div>
+  </body>
+</html>

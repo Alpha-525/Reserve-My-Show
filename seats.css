@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    color: white;;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    height:100%;
+    background-color: black;
+   
+}
+
+.enex{
+display: inline-block;
+height: 30px;
+width: 150px;
+background-color: black;
+border: 3px darkred;
+border-style: solid;
+text-align: center;
+padding-top:8px;
+padding-bottom: 2px;
+}
+
+
+.seat{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    border: 1px white;
+    border-radius: 2px;
+    border-style: solid;
+    padding: 8px;
+    font-size: 1px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 8px;
+    margin-left: 6px;
+    
+    }
+
+.sides{
+height:420px;
+width: 200px;
+background-color: black;
+border: 3px darkred;
+border-style: solid;
+display: inline-block;
+padding: 10px;
+}
+
+.butt{
+    height:50px;
+    width:150px;
+    background-color: darkred;
+    margin-left: 400px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+.butt span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .butt span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .butt:hover span {
+    padding-right: 25px;
+  }
+  
+  .butt:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+input:checked{
+width:50x;
+height: 50px;
+}
+

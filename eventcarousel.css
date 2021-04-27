@@ -1,0 +1,122 @@
+body{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    white-space: nowrap;
+    display: flexbox;
+
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .overlay a {
+      padding: 10px;
+      text-decoration: none;
+      font-size: 30px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+    
+    .overlay a:hover, .overlay a:focus {
+      color: #f1f1f1;
+    }
+    
+    .overlay .closebtn {
+      position: absolute;
+      top: 20px;
+      right: 45px;
+      font-size: 60px;
+    }
+    
+    @media screen and (max-height: 450px) {
+      .overlay a {font-size: 20px}
+      .overlay .closebtn {
+      font-size: 20px;
+      top: 15px;
+      right: 35px;
+      }
+    }
+    .navbar {
+        overflow: hidden;
+        text-align: center;
+        position: fixed;
+        height:50px;
+        
+      }
+
+      img{
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+          height: 40%;
+          width:40%;
+      }
+      h4{
+        display: inline-block;
+      }
+
+      .divi{
+          background-color: rgb(32,32,32);
+          padding:15px;
+          height:50%;
+          width:70%;
+          border-radius: 10px;
+          margin-left: 160px;
+      }
+
+      button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      
+      button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+      
+      button:hover span {
+        padding-right: 25px;
+      }
+      
+      button:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+
+      .details{
+          text-align: center;
+      }
+
+      h1{
+      
+        border-color: 3px white;
+        border-style: solid;
+        padding: 10px;
+        text-align: center;
+      }

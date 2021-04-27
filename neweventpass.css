@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+img{
+    position: relative;
+    top:120px;
+    left:180px;
+}
+
+h1,h2{
+position: absolute;
+}
+
+#company{
+    top:200px;
+    left:570px;
+}
+
+#ename{
+    top:260px;
+    left:490px;
+    font-size: 35px;
+}
+
+#oneliner{
+
+    top:320px;
+    left:590px;
+
+}
+#year{
+    top:150px;
+    left:300px;
+}
+#day{
+    top:210px;
+    left:140px;
+    writing-mode:vertical-rl;
+    font-size: 150px;
+}
+#month{
+    top:350px;
+    left:310px;
+}
+#date{
+    writing-mode: vertical-rl;
+    color: black;
+    left:930px;
+    top:255px;
+}
+

@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+img{
+    position: relative;
+    top:120px;
+    left:180px;
+}
+
+h1,h2{
+position: absolute;
+}
+
+#company{
+    top:150px;
+    left:550px;
+}
+
+#ename{
+    top:220px;
+    left:490px;
+    font-size: 35px;
+}
+
+#oneliner{
+
+    top:290px;
+    left:590px;
+
+}
+#day{
+    top:210px;
+    left:140px;
+    writing-mode:vertical-rl;
+    font-size: 150px;
+}
+#month{
+    top:350px;
+    left:280px;
+}
+#date{
+    writing-mode: vertical-rl;
+    color: black;
+    left:930px;
+    top:220px;
+}
+#time{
+    writing-mode: vertical-rl;
+    color: black;
+    left:930px;
+    top:220px;
+}
+button{
+    background-color: aqua;
+}
