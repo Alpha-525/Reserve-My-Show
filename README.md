@@ -1,4 +1,4 @@
 # Reserve-My-Show
-Reserve My Show is an ongoing project where users can book movie tickets and event passes from the website.
+(Reserve My Show is a websaite which is still an ongoing project and will be completed soon.)
 ReserveMyShow aims to provide access for the users to book movies and events tickets online. The project is totally built at the administrative end and thus only the administrator is guaranteed the access. This website manages the details of users, bookings, seats, shows and payments. It generates the reports on bookings and payments.
 -The various modules used in this system are Movie Management Module- used for managing the movie details, Events Module- used for managing the details of the event, Customer Management Module- used for managing the information and details of the customer, Booking Module- used for managing the booking details, Food & Beverages Module - used for managing the food and beverages details and Payment Module- used for managing the payment details. The Front-End languages behind this website includes HTML, CSS, JavaScript and Back-end includes PHP and SQL for database.
